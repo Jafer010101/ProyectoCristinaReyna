@@ -16,7 +16,7 @@ def cargar_datos():
 
 @app.route('/')
 def home():
-    return render_template('templates/index.html')
+    return render_template('index.html')
 
 @app.route('/contacto', methods=['GET', 'POST'])
 def contacto():
